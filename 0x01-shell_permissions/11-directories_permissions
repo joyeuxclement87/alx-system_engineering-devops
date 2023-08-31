@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u=7,g=5,a=5  0x01-shell_permissions
+chmod u=7,g=5,o=5  0x01-shell_permissions
