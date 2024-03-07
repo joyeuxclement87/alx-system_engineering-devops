@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# workin on displays the contents of the current directory in list format.
+#  to nly displays the part of the name after the first dash.
+
+lst=$(ls)
+for a in $lst; do
+  echo "$a" | cut -d '-' -f2
+done
