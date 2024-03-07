@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# working on displays "Best School" 10 times using loop
+# working on Displays "Best School" 10 times using a while loop.
 
 for (( a=0; a<10; a++ ))
 do
