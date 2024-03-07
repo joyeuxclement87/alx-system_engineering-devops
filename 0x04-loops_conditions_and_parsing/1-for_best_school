@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 # working on displays "Best School" 10 times using loop
 
-i=0
-while (i<10)
-{
+for (( a=0; a<10; a++ ))
+do
   echo "Best School"
-}
 done
