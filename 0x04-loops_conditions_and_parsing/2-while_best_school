@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# working on "Best School" 10 times by a while loop.
+
+counting=10
+
+while [ $counting -lt 20 ]
+do
+  echo "Best School"
+  (( counting++ ))
+done
