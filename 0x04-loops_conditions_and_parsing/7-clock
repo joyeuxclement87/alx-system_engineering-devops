@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# working on displaying the time for 12 horus and 59 minutes.
+#to Displays hours from 0 to 12
+#to Displays minutes from 1 to 59
+
+isaha=0
+while [ $isaha -le 12 ]
+do
+  echo "hour: $isaha"
+  minute=1
+  while [ $minute -le 59 ]
+  do
+    echo "$minute"
+    (( minute++ ))
+  done
+  (( isaha++ ))
+done
