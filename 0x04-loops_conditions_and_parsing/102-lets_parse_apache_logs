@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# working on parses Apache log files in list format.
+# and to displays the IP and HTTP status code.
+awk '{print $1 " " $10}' apache-access.log
