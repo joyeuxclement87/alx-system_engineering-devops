@@ -6,7 +6,7 @@
 isaha=0
 while [ $isaha -le 12 ]
 do
-  echo "hour: $isaha"
+  echo "Hour: $isaha"
   minute=1
   while [ $minute -le 59 ]
   do
