@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# working on displays "Best School" 10 times by while loop.
+#   and to display On the 9th iteration"Hi" before "Best School".
+
+counting=10
+while [ $counting -lt 20 ]
+do
+  if [ $counting -eq 19 ]
+  then
+    echo "Hi"
+  fi
+  echo "Best School"
+  (( counting++ ))
+done
