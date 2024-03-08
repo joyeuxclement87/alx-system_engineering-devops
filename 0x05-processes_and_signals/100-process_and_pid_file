@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# working on script to do this:
+# to Create a file /var/run/myscript.pid containing the script PID.
+# to displays "To infinity and beyond" indefinitely
+# to displays also "I hate the kill command" upon receiving a SIGTERM
+# to displays "Y U no love me?!" upon receiving a SIGINT
+# to deletes the file /var/run/myscript.pid and terminates upon
+# and to receiving a SIGQUIT or SIGTERM.
+terminator() {
+  rm /var/run/myscript.pid
+  exit
+}
+echo "$$" > /var/run/myscript.pid
+while true
+do
+echo "To infinity and beyond"
+sleep 2
+trap 'echo "Y U no love me?!"' SIGINT
+trap 'echo "I hate the kill command" && terminator' SIGTERM
+trap 'terminator' SIGQUIT
+done
