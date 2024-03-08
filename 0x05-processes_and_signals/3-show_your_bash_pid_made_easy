@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script to display process with process contains bash
+
+pgrep bash -l
