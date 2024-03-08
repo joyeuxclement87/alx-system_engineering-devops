@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# working on killing 4 processe and signals
+pkill -f 4-to_infinity_and_beyond
