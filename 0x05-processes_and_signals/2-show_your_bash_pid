@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# working to display current processes contains bash and disable spellcheck
+ps -aux | grep bash
