@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# to display the current procces and show in all users
+# which might not have a TTY.
+ps -auxf
