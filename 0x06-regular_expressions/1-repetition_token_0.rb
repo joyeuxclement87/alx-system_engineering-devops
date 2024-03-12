@@ -1,3 +1,2 @@
 #!/usr/bin/env ruby
-input_string = ARGV[0]
-regex = /Scho.l/
+puts ARGV[0].scan(/hbt{2,5}n/).join
