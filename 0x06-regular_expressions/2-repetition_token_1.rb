@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 input_string = ARGV[0]
-regex = /hbt?n/
+regex = /hb(?:t)?n/
