@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-working on the Script that queries subscribers on a given Reddit subredit.
+this working on the Script that queries subscribers on a given Reddit subredit.
 """
 
 import requests
